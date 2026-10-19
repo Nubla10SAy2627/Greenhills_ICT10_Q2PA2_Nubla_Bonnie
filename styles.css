@@ -1,0 +1,60 @@
+/* General page style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Main container */
+div {
+    margin: 10px auto;
+}
+
+/* Main heading */
+h1 {
+    color: #ff4655;
+    font-size: 35px;
+}
+
+/* Input boxes */
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    width: 220px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add button */
+input[type="button"] {
+    background-color: #ff4655;
+    color: white;
+    padding: 10px 25px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Button hover effect */
+input[type="button"]:hover {
+    background-color: #d73745;
+}
+
+/* Member list */
+#results {
+    background-color: white;
+    max-width: 300px;
+    margin: 15px auto;
+    padding: 15px;
+    border-radius: 8px;
+    line-height: 1.8;
+    box-shadow: 0 2px 5px #ccc;
+}
+
+/* Section heading */
+h3 {
+    color: #333;
+}
